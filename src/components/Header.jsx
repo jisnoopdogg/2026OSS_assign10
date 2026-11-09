@@ -4,7 +4,7 @@ export default function Header({ currentScore, bestScore, onResetBest }) {
   return (
     <header className="header">
       <div>
-        <h1 className="title">Memory Card Game</h1>
+        <h1 className="title">Pokemon Card Game</h1>
         <p className="subtitle">
           Click each card only once — cards shuffle after every click.
         </p>
@@ -22,7 +22,7 @@ export default function Header({ currentScore, bestScore, onResetBest }) {
         </div>
 
         <button className="btn btn-danger" onClick={onResetBest}>
-          Reset Best
+          Play Again
         </button>
       </div>
     </header>

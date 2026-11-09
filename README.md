@@ -59,11 +59,14 @@ App.jsx에 있는 함수 중 shuffle 기능을 담당합니다. [...array]로 �
 
 
 ## Customizing
-| 구분 | 수정 파일 | Before | After |
-| --- | --- | --- | --- |
-| Text |  |  |  |
-| Style |  |  |  |
-| UI/Data |  |  |  |
+| 구분 | 수정 파일 | 수정 내용 |
+| --- | --- | --- |
+| Text | Header.jsx | 제목: Memory Card Game -> Pokemon Card Game <br/> 버튼: Reset Best -> Play Again
+| Style | index.css | 배경색: navy -> dark green <br/> 카드 크기: 16px -> 25px <br/> 제목: 크기 24px -> 36px, 색 white -> yellow <br/> 카드 모양: border-radius 10px -> 80px|
+| UI/Data | App.jsx | 포켓몬 카드 개수 및 종류: pokeapi 호출하는 link에서 개수를 30을로 늘리고 도감 150번대부터 나오도록 변경 |
+
+**수정화면**
+![실행화면](./img/editscreen.png)
 
 ## Weekly Review - Week 10
 

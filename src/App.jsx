@@ -37,7 +37,7 @@ export default function App() {
   async function fetchCards() {
     setLoading(true);
     try {
-      const res = await fetch("https://pokeapi.co/api/v2/pokemon?limit=20");
+      const res = await fetch("https://pokeapi.co/api/v2/pokemon?limit=30&offset=150");
       if (!res.ok) throw new Error("Network error");
       const data = await res.json();
       // Map results to card objects with id, name, and image
