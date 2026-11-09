@@ -1,11 +1,6 @@
 22100310 박진수
 # Assignment 10
 
-## Deployment
-| 항목 | URL |
-| --- | --- |
-| GitHub |  |
-| Vercel |  |
 
 ## Project Information
 **프로젝트 소개**: React를 이용한 포켓몬 카드 기억하기 게임입니다. 한 종류의 포켓몬 카드는 한 번만 선택할 수 있고, 고를 때마다 점수가 올라가며 카드가 섞입니다. 이미 선택했던 카드를 고르면 패배합니다.
@@ -68,21 +63,22 @@ App.jsx에 있는 함수 중 shuffle 기능을 담당합니다. [...array]로 �
 **수정화면**
 ![실행화면](./img/editscreen.png)
 
+## Deployment
+| 항목 | URL |
+| --- | --- |
+| GitHub | https://github.com/2026-2-OSS/assign10-c02-22100310 |
+| Vercel | https://2026-oss-assign10-pearl.vercel.app |
+
 ## Weekly Review - Week 10
 
 ### Key Learning
-1.
-2.
-3.
+1. React props의 흐름을 이해하였습니다. 이 프로젝트를 기준으로 Card는 클릭 여부만 알리고 부모인 App이 상태를 판단하여 반영합니다.
+2. 로컬에서 npm run dev를 통해 개인 서버를 실행하고, vercel에 배포하여 push를 통해 자동으로 다시 업데이트 내용을 배포하였습니다.
+3. Component와 App.jsx, main, css, package.json등으로 분리된 React 프로젝트의 핵심 구성들을 익혔습니다.
 
-### AI / Search Usage
-| 도구 | 사용 목적 | 참고·반영한 기능 | 직접 수정한 내용 | 배운 점 | AI 기여율 |
-| --- | --- | --- | --- | --- | --- |
-|  |  |  |  |  |  |
+### AI 활용 및 느낀 점
+오픈소스 프로젝트를 선정할 때 요구사항에 맞는 프로젝트를 찾기 위해 AI를 활용하였고, 프로젝트의 소스코드를 분석할 때 주요 파일 및 기능이 어떻게 분리되어 있는지 물어보며 이해하는데 도움을 받았습니다. 파일을 읽으며 모르는 기능들을 AI에게 물어봐가며 코드 구조를 이해하였습니다. 이외의 모든 README 작성과 코드 수정은 직접 했습니다. 정말 많은 파일로 구성되어 있어 처음에는 어렵게 다가왔지만 관리하기 용이한 구조로 부모와 component로 분리되어 관리되는 점이 큰 장점이라고 느꼈습니다. 파일을 이해하며 앞으로 해볼 수 있는 많은 것들이 떠올라 재미있게 진행할 수 있었습니다.
 
 ### Problem & Solution
-- **Problem**:
-- **Solution**:
-
-### Reflection
--
+- **Problem**: 처음에 프로젝트를 clone하여 진행할 때 과제 제출용 private repo로 push하는 방법을 몰랐습니다.
+- **Solution**: 여러 방식으로 해결을 시도했고, git remote link를 원작자 repo에서 제출용 repo로 변경하여 해결했습니다.
